@@ -30,7 +30,8 @@ func main() {
 	// }
 	// datatypes.Primitive()
 	// datatypes.Arrays()
-	datatypes.Slices()
+	// datatypes.Slices()
+	datatypes.MapExample()
 }
 
 func NameAndAge(p Person) (string, int, error) {

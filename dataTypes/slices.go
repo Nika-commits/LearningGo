@@ -12,5 +12,14 @@ func Slices() {
 	fmt.Printf("%p", intSlice)
 	fmt.Println(len(intSlice))
 	fmt.Println(cap(intSlice))
+	
+	intSlice2 := []int8{10,11}
+	intSlice = append(intSlice, intSlice2...)
+	fmt.Printf("%p\n", intSlice)
+	fmt.Printf("%p\n", intSlice2)
+	
+	fmt.Println(intSlice)
+	fmt.Println(len(intSlice))
+	fmt.Println(cap(intSlice))
 
 }
