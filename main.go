@@ -28,8 +28,9 @@ func main() {
 	// } else {
 	// 	fmt.Printf("The person's name is %v with age of %v", p1Name, p1Age)
 	// }
-	datatypes.Primitive()
-	datatypes.Arrays()
+	// datatypes.Primitive()
+	// datatypes.Arrays()
+	datatypes.Slices()
 }
 
 func NameAndAge(p Person) (string, int, error) {
