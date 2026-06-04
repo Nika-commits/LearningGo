@@ -30,7 +30,7 @@ func main() {
 	// }
 	// datatypes.Primitive()
 	// datatypes.Arrays()
-	// datatypes.Slices()
+	datatypes.Slices()
 	datatypes.MapExample()
 }
 
