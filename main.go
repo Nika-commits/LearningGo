@@ -2,8 +2,7 @@ package main
 
 import (
 	"errors"
-
-	"github.com/Nika-commits/LearningGo/structsTut"
+	"fmt"
 )
 
 type Person struct {
@@ -34,7 +33,15 @@ func main() {
 	// datatypes.MapExample()
 	// loops.Loop()
 	// dataTypes.Runes()
-	structsTut.Computing()
+	// structsTut.Computing()
+	var a uint8 = 10
+	var b *uint8 = &a
+
+	fmt.Printf("Before Changine value: %v\n", a)
+	*b = 2
+	fmt.Printf("After Changine value: %v\n", a)
+	fmt.Printf("Value of b : %v\n", *b)
+
 }
 
 func NameAndAge(p Person) (string, int, error) {
