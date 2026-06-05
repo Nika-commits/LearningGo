@@ -2,7 +2,8 @@ package main
 
 import (
 	"errors"
-	"fmt"
+
+	"github.com/Nika-commits/LearningGo/concurrencyTut"
 )
 
 type Person struct {
@@ -34,14 +35,14 @@ func main() {
 	// loops.Loop()
 	// dataTypes.Runes()
 	// structsTut.Computing()
-	var a uint8 = 10
-	var b *uint8 = &a
+	// var a uint8 = 10
+	// var b *uint8 = &a
 
-	fmt.Printf("Before Changine value: %v\n", a)
-	*b = 2
-	fmt.Printf("After Changine value: %v\n", a)
-	fmt.Printf("Value of b : %v\n", *b)
-
+	// fmt.Printf("Before Changine value: %v\n", a)
+	// *b = 2
+	// fmt.Printf("After Changine value: %v\n", a)
+	// fmt.Printf("Value of b : %v\n", *b)
+	concurrencyTut.SomeWork()
 }
 
 func NameAndAge(p Person) (string, int, error) {
