@@ -27,3 +27,10 @@ func Slices() {
 	}
 
 }
+
+func getSlice() []int8 {
+	intSlice := []int8{1, 2, 3, 4, 5}
+	return intSlice
+}
+
+

@@ -3,7 +3,7 @@ package main
 import (
 	"errors"
 
-	datatypes "github.com/Nika-commits/LearningGo/dataTypes"
+	"github.com/Nika-commits/LearningGo/loops"
 )
 
 type Person struct {
@@ -30,8 +30,9 @@ func main() {
 	// }
 	// datatypes.Primitive()
 	// datatypes.Arrays()
-	datatypes.Slices()
-	datatypes.MapExample()
+	// datatypes.Slices()
+	// datatypes.MapExample()
+	loops.Loop()
 }
 
 func NameAndAge(p Person) (string, int, error) {
